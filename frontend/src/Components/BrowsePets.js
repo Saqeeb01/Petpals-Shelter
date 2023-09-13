@@ -68,7 +68,7 @@ const BrowsePets = () => {
       };
 
       // Send a POST request to your server to store the adoption data
-      const response = await fetch("http://localhost:5000/api/adopt/create", {
+      const response = await fetch("https://petpal-6n5y.onrender.com/api/adopt/create", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

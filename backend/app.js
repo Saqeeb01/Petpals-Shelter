@@ -9,6 +9,7 @@ const path = require('path')
 const adoptRoutes = require('./routes/adoptRoutes'); // Import your adoption route
 // const bodyParser = require('body-parser'); // Import bodyParser
 
+
 const app = express();
 
 
